@@ -1,0 +1,75 @@
+body,
+body * {
+    margin: 0;
+    padding: 2px;
+    vertical-align: top;
+    font-family: cursive;
+    background-color: transparent;
+}
+
+body {
+    background-image: url(https://img.freepik.com/free-photo/neutral-abstract-texture-simple-background_53876-101899.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+#newOrderForm {
+    display: none;
+}
+
+#newOrderForm.show {
+    display: block;
+}
+
+
+.container {
+    text-align: center;
+    width: 1200px;
+    height: 800px;
+    padding-top: 10px;
+    
+}
+
+
+.actions {
+    display: block;
+    padding-top: 20px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.actions>.add-new-order {
+    display: inline-block;
+    padding: 10px 15px ;
+    background-color: #6D7D60;
+    border-radius: 25px;
+    cursor: pointer;
+    
+}
+
+.form-group>.checkout-button {
+    margin-top: 10px;
+    background-color: #6D7D60;
+}
+
+
+.btn:hover {
+    background: #EEDBC8;
+    border: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.price > .specialPrice {
+    background-color: rgb(134, 57, 57);
+    color: #fff;
+}
+
+.price>.originalPrice {
+    text-decoration: line-through;
+}
